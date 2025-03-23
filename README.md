@@ -52,10 +52,18 @@ Ensure you have the following installed:
    - Go to `http://127.0.0.1:5000/`
    - Upload an image and view the extracted math expression.
 
+## Accuracy Warning ⚠️
+This project relies on **Tesseract OCR**, which is not optimized for recognizing handwritten mathematical expressions. As a result, the accuracy of extracted equations may be low, especially for complex symbols and notations. Consider using deep learning-based OCR models for improved performance.
+
 ## Usage
 - Upload an image containing a handwritten mathematical expression.
 - The system processes the image and extracts the equation.
 - The extracted equation is displayed on the webpage.
+
+## Future Improvements
+- 🖊️ **Handwriting Recognition Model:** Improve accuracy with a custom-trained deep learning model.
+- ✏️ **Equation Solver:** Add LaTeX rendering and equation solving functionality.
+- 📡 **API Support:** Expose an API for integration with other applications.
 
 ## Contributions
 Contributions are welcome! Feel free to submit issues or pull requests.
@@ -63,5 +71,7 @@ Contributions are welcome! Feel free to submit issues or pull requests.
 ## License
 This project is licensed under the **MIT License**.
 
+## Author
+Developed by [DarkwolfThereal](https://github.com/DarkwolfThereal).
 
 
