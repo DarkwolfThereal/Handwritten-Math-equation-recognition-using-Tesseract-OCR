@@ -4,12 +4,12 @@
 This project is a Flask-based web application that recognizes handwritten mathematical equations from images using **Tesseract OCR**. Users can upload images containing math expressions, and the application extracts and processes the equations for further evaluation.
 
 ## Features
-- 📷 **Image Upload:** Users can upload images of handwritten mathematical equations.
-- 🧠 **OCR Processing:** Uses **Tesseract OCR** to extract text from images.
-- 🛠️ **Preprocessing Pipeline:** Includes denoising, adaptive thresholding, and contrast enhancement for better recognition.
-- 🔄 **Multiple Iterations for Accuracy:** Runs multiple iterations with different preprocessing settings to improve OCR accuracy.
-- 📈 **Expression Cleaning:** Corrects common OCR misinterpretations like 'x' misread as '*' and removes unnecessary spaces.
-- 🌐 **Web-Based Interface:** Simple UI to upload images and display extracted equations.
+-  **Image Upload:** Users can upload images of handwritten mathematical equations.
+-  **OCR Processing:** Uses **Tesseract OCR** to extract text from images.
+-  **Preprocessing Pipeline:** Includes denoising, adaptive thresholding, and contrast enhancement for better recognition.
+-  **Multiple Iterations for Accuracy:** Runs multiple iterations with different preprocessing settings to improve OCR accuracy.
+-  **Expression Cleaning:** Corrects common OCR misinterpretations like 'x' misread as '*' and removes unnecessary spaces.
+-  **Web-Based Interface:** Simple UI to upload images and display extracted equations.
 
 ## Technologies Used
 - **Python** (Backend logic)
@@ -52,7 +52,7 @@ Ensure you have the following installed:
    - Go to `http://127.0.0.1:5000/`
    - Upload an image and view the extracted math expression.
 
-## Accuracy Warning ⚠️
+## Accuracy Warning 
 This project relies on **Tesseract OCR**, which is not optimized for recognizing handwritten mathematical expressions. As a result, the accuracy of extracted equations may be low, especially for complex symbols and notations. Consider using deep learning-based OCR models for improved performance.
 
 ## Usage
@@ -61,9 +61,9 @@ This project relies on **Tesseract OCR**, which is not optimized for recognizing
 - The extracted equation is displayed on the webpage.
 
 ## Future Improvements
-- 🖊️ **Handwriting Recognition Model:** Improve accuracy with a custom-trained deep learning model.
-- ✏️ **Equation Solver:** Add LaTeX rendering and equation solving functionality.
-- 📡 **API Support:** Expose an API for integration with other applications.
+-  **Handwriting Recognition Model:** Improve accuracy with a custom-trained deep learning model.
+-  **Equation Solver:** Add LaTeX rendering and equation solving functionality.
+-  **API Support:** Expose an API for integration with other applications.
 
 ## Contributions
 Contributions are welcome! Feel free to submit issues or pull requests.
